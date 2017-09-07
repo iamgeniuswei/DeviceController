@@ -1,0 +1,87 @@
+﻿生成启动时间为 2017-9-7 10:02:05。
+     1>项目“C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\DeviceController\DeviceController\DeviceController.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\DeviceController.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\DeviceController.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DEVICECONTROLLER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt atccs.cpp
+         atccs.cpp
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.h(143): warning C4251: “ATCCS::ATCCSUdpSocket::_targetIP”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“ATCCS::ATCCSUdpSocket”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.h(146): warning C4251: “ATCCS::ATCCSUdpSocket::_hostIP”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“ATCCS::ATCCSUdpSocket”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.h(278): warning C4251: “ATCCS::ATCCSQueue<T>::_dataQueue”: class“std::queue<_Ty>”需要有 dll 接口由 class“ATCCS::ATCCSQueue<T>”的客户端使用
+                 with
+                 [
+                     T=std::tr1::shared_ptr<ATCCS::ATCCSData>
+                 ]
+                 and
+                 [
+                     _Ty=std::tr1::shared_ptr<ATCCS::ATCCSData>
+                 ]
+                 and
+                 [
+                     T=std::tr1::shared_ptr<ATCCS::ATCCSData>
+                 ]
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.h(344): warning C4251: “ATCCS::ATCCSDataHandler::_controllers”: class“std::map<_Kty,_Ty>”需要有 dll 接口由 class“ATCCS::ATCCSDataHandler”的客户端使用
+                 with
+                 [
+                     _Kty=unsigned int,
+                     _Ty=ATCCS::ATCCSDeviceController *
+                 ]
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.h(537): warning C4251: “ATCCS::ATCCSSetting::_hostAddress”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“ATCCS::ATCCSSetting”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.h(539): warning C4251: “ATCCS::ATCCSSetting::_remoteAddress”: class“std::basic_string<_Elem,_Traits,_Ax>”需要有 dll 接口由 class“ATCCS::ATCCSSetting”的客户端使用
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ax=std::allocator<char>
+                 ]
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.cpp(303): warning C4101: “e”: 未引用的局部变量
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.cpp(316): warning C4101: “e”: 未引用的局部变量
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.cpp(469): warning C4244: “=”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>c:\documents and settings\administrator\my documents\project\devicecontroller\devicecontroller\devicecontroller\atccs.cpp(483): warning C4244: “=”: 从“time_t”转换到“unsigned int”，可能丢失数据
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DeviceController.dll.embed.manifest.res" Debug\DeviceController_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DeviceController.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /NOENTRY /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.lib" /MACHINE:X86 /DLL Debug\DeviceController.dll.embed.manifest.res
+         Debug\atccs.obj
+            正在创建库 C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.lib 和对象 C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.exp
+     1>atccs.obj : warning LNK4210: 存在 .CRT 节；可能有未处理的静态初始值设定项或结束符
+     1>msvcprtd.lib(nothrow.obj) : warning LNK4210: 存在 .CRT 节；可能有未处理的静态初始值设定项或结束符
+       Manifest:
+         正在删除文件“Debug\DeviceController.dll.embed.manifest”。
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DeviceController.dll.embed.manifest" /manifest Debug\DeviceController.dll.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DeviceController.dll.embed.manifest.res" Debug\DeviceController_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DeviceController.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /NOENTRY /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.lib" /MACHINE:X86 /DLL Debug\DeviceController.dll.embed.manifest.res
+         Debug\atccs.obj
+            正在创建库 C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.lib 和对象 C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.exp
+     1>atccs.obj : warning LNK4210: 存在 .CRT 节；可能有未处理的静态初始值设定项或结束符
+     1>msvcprtd.lib(nothrow.obj) : warning LNK4210: 存在 .CRT 节；可能有未处理的静态初始值设定项或结束符
+         DeviceController.vcxproj -> C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\MainApp\Debug\DeviceController.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\DeviceController.unsuccessfulbuild”。
+         正在对“Debug\DeviceController.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Documents and Settings\Administrator\My Documents\Project\DeviceController\DeviceController\DeviceController\DeviceController.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.45
